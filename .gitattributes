@@ -8,14 +8,14 @@
 double tool(int x1,int y1,int x2,int y2){
     double tooll;
     tooll=sqrt(pow((y2-y1),2)+pow((x2-x1),2));
-    return (double)tooll;
+    return tooll;
 }
 
 
 double area(int x1,int y1,int x2,int y2,int x3,int y3){
     double areaa;
     areaa=(0.5)*(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2));
-    return (double)fabs(areaa);
+    return fabs(areaa);
 }
 
 
@@ -27,7 +27,7 @@ double max(double a,double b){
     if(a<b){
         maxx = b;
     }
-    return (double)maxx;
+    return maxx;
 }
 
 
